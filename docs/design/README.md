@@ -1,10 +1,8 @@
 # Diseño — fuentes del canvas
 
 Maquetas de referencia de la tienda. **No son código de la app**: no se importan
-desde `src/`, no se compilan y no entran al bundle. Son la referencia visual que el
-`developer` traduce a componentes React.
-
-Canvas publicado: https://claude.ai/code/artifact/4dec6979-64df-4be7-b0dd-12587ccc4325
+desde `src/`, no se compilan y no entran al bundle. Son la referencia visual que se
+traduce a componentes React.
 
 ## Archivos
 
@@ -42,6 +40,5 @@ Todo lo que está entre corchetes es un dato que falta, no texto final:
 
 ## Cómo se edita
 
-Se edita visualmente en el canvas publicado y se guarda desde ahí, o se editan estos
-archivos y se vuelve a armar el canvas con la skill `design` de Claude Code. El
-`.html` armado (~2.5 MB, trae el editor adentro) es salida regenerable y no se versiona.
+Se editan estos archivos `.dc.html` directamente. El `.html` armado del canvas
+(~2.5 MB, trae el editor adentro) es salida regenerable y no se versiona.

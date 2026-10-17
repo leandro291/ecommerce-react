@@ -1,7 +1,7 @@
 # SETUP — Arquitectura y puesta en marcha
 
-Este documento es la referencia obligatoria de estructura de carpetas y dependencias.
-Está referenciado desde [`CLAUDE.md`](./CLAUDE.md); toda tarea debe respetarlo.
+Este documento es la referencia obligatoria de estructura de carpetas y dependencias;
+toda tarea debe respetarlo.
 
 ---
 
@@ -106,15 +106,11 @@ negocio, no con qué librería está hecho.
 
 ```
 .
-├── CLAUDE.md                    # Reglas del repo y referencias a los agentes
 ├── SETUP.md                     # Este documento
 ├── vite.config.js
 ├── .env.example
-├── .claude/
-│   └── agents/                  # orquestador, spec, developer, reviewer
 ├── docs/
 │   ├── ecommerce-api.yaml       # Contrato OpenAPI: única fuente de verdad
-│   ├── specs/                   # Specs SDD aprobados, uno por funcionalidad
 │   └── design/                  # Maquetas de referencia (ver su README.md)
 └── src/
     ├── main.jsx                 # Punto de entrada: crea el QueryClient, monta providers + router
