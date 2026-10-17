@@ -26,3 +26,5 @@ dist-ssr
 # Entorno local
 .env
 .env.local
+.claude/
+CLAUDE.md
